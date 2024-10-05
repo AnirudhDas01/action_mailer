@@ -1,0 +1,6 @@
+<p>
+hello, 
+  <%= User.first.email %>
+  </br>
+  <%=link_to 'Visit the latest post', post_url(Post.last ,host:'localhost:3000') %>
+</p>
